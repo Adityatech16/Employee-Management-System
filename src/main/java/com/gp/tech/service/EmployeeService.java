@@ -16,7 +16,7 @@ public interface EmployeeService {
 	
 	public Employee updateEmp(Integer id,Employee emp);
 	
-	public void deleteEmployee(Integer id);
+	public String deleteEmployee(Integer id);
 	
 	
 	

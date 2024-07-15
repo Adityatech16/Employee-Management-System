@@ -152,8 +152,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public void deleteEmployee(Integer id) {
-		// TODO Auto-generated method stub
+	public String deleteEmployee(Integer id) {
+
+		emprepo.deleteById(id);
+		return "Employee is deleted";
 
 	}
 
